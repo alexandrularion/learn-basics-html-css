@@ -1,0 +1,17 @@
+.media-container {
+  background-color: #f4a2a2;
+}
+
+/* Mobile */
+@media screen and (max-width: 550px) {
+  .media-container {
+    background-color: blue;
+    padding: 30px;
+    margin: 30px;
+    border: 10px solid red;
+  }
+
+  video {
+    display: none;
+  }
+}

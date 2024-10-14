@@ -1,0 +1,22 @@
+img {
+  width: 800px;
+  height: 1500px;
+}
+
+/* Selects a unique id */
+#myUniqueParagraph {
+  font-size: 18px;
+}
+
+/* Selects a class */
+.heading {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1600px) {
+  .heading {
+    font-size: 40px;
+  }
+}

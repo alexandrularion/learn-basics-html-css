@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>First HTML page</title>
+
+    <!-- Local CSS Style using <style> tag -->
+    <style>
+      /* selector {
+        property: value
+      } */
+      p {
+        color: blue;
+      }
+
+      /* Selects the <h1> tag and apply text color red */
+      h1 {
+        color: #ffe800;
+      }
+
+      h6 {
+        color: rgb(100, 0, 255);
+      }
+    </style>
+
+    <!-- Import external CSS (Cascading Style Sheet) file using <link> tag -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Paragraph tag -->
+    <p id="myUniqueParagraph">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas nemo amet
+      dolores cum, aliquam, laborum dignissimos officiis neque repellat expedita
+      vel. Repellat unde libero quis est perferendis, labore ex commodi.
+    </p>
+
+    <!-- Heading tag -->
+    <h1 class="heading">Heading 1</h1>
+    <h6 class="heading">Heading 6</h6>
+
+    <!-- Image tag -->
+    <!-- src = attribute -->
+    <img
+      src="https://images.pexels.com/photos/1852361/pexels-photo-1852361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      alt="Mountain, Winter, Snow"
+    />
+
+    <!-- Anchor tag -->
+    <a
+      href="https://journey.study/v2/learn/courses/5702/modules/17603/units/5/materials/27977"
+    >
+      Coursebook
+    </a>
+
+    <!-- Button tag -->
+    <button>Check course</button>
+    <button type="submit">Submit form</button>
+    <button type="reset">Reset form</button>
+    <button type="menu">Open menu</button>
+
+    <!-- Form tag -->
+    <form>
+      <div>
+        <label for="name">Enter your name</label>
+        <input id="name" type="text" name="name" />
+      </div>
+      <div>
+        <label for="birthdate">Enter your birthdate</label>
+        <input id="birthdate" type="date" name="birthdate" />
+      </div>
+
+      <!-- Button to reset the inputs -->
+      <button type="reset">Reset form</button>
+
+      <!-- Button to submit the information -->
+      <button type="submit">Submit form</button>
+    </form>
+  </body>
+</html>
+<!-- HTML COMMENT: CTRL + / -->
+<!-- CTRL + S - SAVE THE FILE -->

@@ -1,0 +1,55 @@
+/* All tags selector + reset default styling */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  width: 100%;
+  min-height: 100vh;
+  padding: 64px;
+}
+
+h1 {
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 104px;
+  color: #252525;
+  max-width: 600px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  gap: 56px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Descendant selector */
+.card-container h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #878787;
+}
+
+.card-container p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #515151;
+}
+
+.card-container img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
